@@ -12,7 +12,7 @@
 package com.junhopark.javalotto;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException {
         Play play = new Play();
         play.start();
     }
